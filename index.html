@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Animated Background -->
+    <canvas id="stars-canvas"></canvas>
+    
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="#home">Portfolio</a>
+            </div>
+            <div class="nav-menu" id="nav-menu">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#certificates" class="nav-link">Certifications</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+            <div class="hamburger" id="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    Hi, I'm <span class="highlight">Yomal Hettiarachchi</span>
+                </h1>
+                <p class="hero-subtitle">Aspiring Full Stack Developer | Cloud Engineer in Progress | Cybersecurity Enthusiast</p>
+                <p class="hero-description">
+                    Exploring technology with passion for secure, scalable, and innovative solutions                </p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">View My Work</a>
+                    <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="ChatGPT Image Sep 4, 2025, 06_34_39 PM.png" alt="Profile Picture" class="profile-img">
+                </div>
+                <div class="about-text">
+                    <p>
+                      I’m Yomal Hettiarachchi, a first year Software Engineering student at Sir John Kotelawala Defence University,
+                       aspiring to become a Full Stack Developer, Cloud Engineer, and Cybersecurity Professional.
+                    </p>
+                    <p>
+                       I’m passionate about building secure, scalable, and user friendly applications that combine innovation with
+                        real world impact. With a growing foundation in multiple programming languages and a strong interest 
+                        in emerging technologies, I aim to continuously learn and contribute to meaningful projects.
+
+                        Beyond coding, I enjoy exploring the latest tech trends and strengthening my skills to thrive in today’s 
+                        fast evolving digital landscape.
+                    </p>
+                    <div class="about-stats">
+                        <div class="stat">
+                            <h3>3+</h3>
+                            <p>Projects Completed</p>
+                        </div>
+                        <div class="stat">
+                            <h3>+</h3>
+                            <p>Years Experience</p>
+                        </div>
+                        <div class="stat">
+                            <h3>100%</h3>
+                            <p>Client Satisfaction</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">My Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fab fa-html5"></i>
+                    </div>
+                    <h3>HTML</h3>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="90"></div>
+                    </div>
+                    <span class="skill-percentage">90%</span>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fab fa-css3-alt"></i>
+                    </div>
+                    <h3>CSS</h3>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="85"></div>
+                    </div>
+                    <span class="skill-percentage">85%</span>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fab fa-js-square"></i>
+                    </div>
+                    <h3>JavaScript</h3>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="80"></div>
+                    </div>
+                    <span class="skill-percentage">80%</span>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fab fa-java"></i>
+                    </div>
+                    <h3>Java</h3>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="50"></div>
+                    </div>
+                    <span class="skill-percentage">50%</span>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fas fa-cloud"></i>
+                    </div>
+                    <h3>Cloud</h3>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="10"></div>
+                    </div>
+                    <span class="skill-percentage">10%</span>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>Cybersecurity</h3>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="10"></div>
+                    </div>
+                    <span class="skill-percentage">10%</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certificates Section HTML -->
+<!-- Add this section to your index.html file between projects and contact sections -->
+
+<section id="certificates" class="certificates">
+    <div class="container">
+        <h2 class="section-title">Certifications & Achievements</h2>
+        
+        <!-- Filter Buttons -->
+        <div class="certificate-filters">
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="development">Development</button>
+            <button class="filter-btn" data-filter="cloud">Cloud</button>
+            <button class="filter-btn" data-filter="security">Security</button>
+            <button class="filter-btn" data-filter="networking">Networking</button>
+        </div>
+        
+        <!-- Certificates Grid -->
+        <div class="certificates-grid">
+            
+            <!-- Certificate 1 -->
+            <div class="certificate-card fade-in" data-category="cloud">
+                <div class="certificate-header">
+                    <div class="certificate-icon">
+                        <i class="fas fa-cloud"></i>
+                    </div>
+                    <h3 class="certificate-title"> Introduction to Cloud Infrastructure Technologies</h3>
+                    <p class="certificate-issuer">The LINUX Foundation</p>
+                    <span class="certificate-badge status-verified">Verified</span>
+                </div>
+                <div class="certificate-body">
+                    <p class="certificate-description">
+                        Foundational cloud course covering core architecture, networking, storage, 
+                        and deployment practices within the Linux Foundation technology stack.
+                    </p>
+                    <div class="certificate-details">
+                        <div class="certificate-detail">
+                            <i class="fas fa-calendar-alt"></i>
+                            <span>Completed: August 2025</span>
+                        </div>
+                        <div class="certificate-detail">
+                            <i class="fas fa-clock"></i>
+                            <span>Duration: 40 hours</span>
+                        </div>
+                        <div class="certificate-detail">
+                            <i class="fas fa-trophy"></i>
+                            <span>Grade: A+</span>
+                        </div>
+                    </div>
+                    <div class="certificate-skills">
+                        <span class="skill-badge">Cloud Computing</span>
+                        <span class="skill-badge">LFS151</span>
+                        <span class="skill-badge">Linux Environment</span>
+                        <span class="skill-badge">Networking & Storage</span>
+                    </div>
+                    <div class="certificate-actions">
+                        <a href="#" class="certificate-btn btn-verify">
+                            <i class="fas fa-check-circle"></i> Verify
+                        </a>
+                        <a href="maleesha-yomal-6b417264-522d-486a-8ad2-80993593d3d4-certificate.pdf" class="certificate-btn btn-download">
+                            <i class="fas fa-download"></i> Download
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Certificate 2 -->
+            <div class="certificate-card fade-in" data-category="cloud">
+                <div class="certificate-header">
+                    <div class="certificate-icon">
+                        <i class="fab fa-aws"></i>
+                    </div>
+                    <h3 class="certificate-title">AWS Cloud Practitioner</h3>
+                    <p class="certificate-issuer">Amazon Web Services</p>
+                    <span class="certificate-badge status-in-progress">In Progress</span>
+                </div>
+                <div class="certificate-body">
+                    <p class="certificate-description">
+                        Foundation-level certification covering AWS cloud concepts, services, 
+                        security, architecture, pricing, and support models.
+                    </p>
+                    <div class="certificate-details">
+                        <div class="certificate-detail">
+                            <i class="fas fa-calendar-alt"></i>
+                            <span>Expected: December 2024</span>
+                        </div>
+                        <div class="certificate-detail">
+                            <i class="fas fa-clock"></i>
+                            <span>Study Time: 60 hours</span>
+                        </div>
+                        <div class="certificate-detail">
+                            <i class="fas fa-percentage"></i>
+                            <span>Progress: 75%</span>
+                        </div>
+                    </div>
+                    <div class="certificate-skills">
+                        <span class="skill-badge">AWS</span>
+                        <span class="skill-badge">Cloud Computing</span>
+                        <span class="skill-badge">EC2</span>
+                        <span class="skill-badge">S3</span>
+                    </div>
+                  
+                </div>
+            </div>
+            
+            <!-- Certificate 3 -->
+            <div class="certificate-card fade-in" data-category="security">
+                <div class="certificate-header">
+                    <div class="certificate-icon">
+                        <i class="fab fa-linux"></i>
+                    </div>
+                    <h3 class="certificate-title"> Introduction to Linux </h3>
+                    <p class="certificate-issuer">The LINUX Foundation</p>
+                    <span class="certificate-badge status-verified">Verified</span>
+                </div>
+                <div class="certificate-body">
+                    <p class="certificate-description">
+                       Foundational guide to Linux: covers core OS concepts, command-line usage, 
+                       file permissions, and system navigation for new users.
+                    </p>
+                    <div class="certificate-details">
+                        <div class="certificate-detail">
+                            <i class="fas fa-calendar-alt"></i>
+                            <span>Completed: August 2025</span>
+                        </div>
+                        <div class="certificate-detail">
+                            <i class="fas fa-clock"></i>
+                            <span>Duration: 35 hours</span>
+                        </div>
+                        <div class="certificate-detail">
+                            <i class="fas fa-star"></i>
+                            <span>Score: 95%</span>
+                        </div>
+                    </div>
+                    <div class="certificate-skills">
+                        <span class="skill-badge">OS Fundamentals</span>
+                        <span class="skill-badge">System Navigation</span>
+                        <span class="skill-badge">Command Mastery</span>
+                        <span class="skill-badge">Basic Administration</span>
+                    </div>
+                    <div class="certificate-actions">
+                        <a href="#" class="certificate-btn btn-verify">
+                            <i class="fas fa-check-circle"></i> Verify
+                        </a>
+                        <a href="maleesha-yomal-c7468a47-bf84-43c9-b80a-ca76205fbc64-certificate (2).pdf" class="certificate-btn btn-download">
+                            <i class="fas fa-download"></i> Download
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Certificate 4 -->
+            <div class="certificate-card fade-in" data-category="networking">
+                <div class="certificate-header">
+                    <div class="certificate-icon">
+                        <i class="fas fa-network-wired"></i>
+                    </div>
+                    <h3 class="certificate-title">Multicloud Network Associate</h3>
+                    <p class="certificate-issuer">Aviatrix</p>
+                    <span class="certificate-badge status-verified">Verified</span>
+                </div>
+                <div class="certificate-body">
+                    <p class="certificate-description">
+                        Master Aviatrix and multicloud networking for seamless,
+                         secure cloud connectivity.
+                    </p>
+                    <div class="certificate-details">
+                        <div class="certificate-detail">
+                            <i class="fas fa-calendar-alt"></i>
+                            <span>Completed: Sepetember 2025</span>
+                        </div>
+                        <div class="certificate-detail">
+                            <i class="fas fa-clock"></i>
+                            <span>Duration: 2 days</span>
+                        </div>
+                        <div class="certificate-detail">
+                            <i class="fas fa-trophy"></i>
+                            <span>Grade: A+</span>
+                        </div>
+                    </div>
+                    <div class="certificate-skills">
+                        <span class="skill-badge">AWS Networking</span>
+                        <span class="skill-badge">Cloud Architecture</span>
+                        <span class="skill-badge">Cloud Engineer</span>
+                        <span class="skill-badge">Cloud Security</span>
+                    </div>
+                    <div class="certificate-actions">
+                        <a href="https://www.credly.com/badges/c952f07e-a2e2-44dd-8a17-2e402b698a94/public_url" class="certificate-btn btn-verify">
+                            <i class="fas fa-check-circle"></i> Verify
+                        </a>
+                        <a href="MultiCloudNetwork.newlogo20251006-31-4mq58m.pdf" class="certificate-btn btn-download">
+                            <i class="fas fa-download"></i> Download
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Certificate 5 -->
+            <div class="certificate-card fade-in" data-category="networking">
+                <div class="certificate-header">
+                    <div class="certificate-icon">
+                        <i class="fas fa-network-wired"></i>
+                    </div>
+                    <h3 class="certificate-title">Network+ Preparation</h3>
+                    <p class="certificate-issuer">CompTIA</p>
+                    <span class="certificate-badge status-in-progress">Studying</span>
+                </div>
+                <div class="certificate-body">
+                    <p class="certificate-description">
+                        Preparation for CompTIA Network+ certification covering networking 
+                        concepts, infrastructure, operations, and troubleshooting.
+                    </p>
+                    <div class="certificate-details">
+                        <div class="certificate-detail">
+                            <i class="fas fa-calendar-alt"></i>
+                            <span>Expected: March 2025</span>
+                        </div>
+                        <div class="certificate-detail">
+                            <i class="fas fa-clock"></i>
+                            <span>Study Time: 100 hours</span>
+                        </div>
+                        <div class="certificate-detail">
+                            <i class="fas fa-percentage"></i>
+                            <span>Progress: 40%</span>
+                        </div>
+                    </div>
+                    <div class="certificate-skills">
+                        <span class="skill-badge">Networking</span>
+                        <span class="skill-badge">TCP/IP</span>
+                        <span class="skill-badge">Routing</span>
+                        <span class="skill-badge">Security</span>
+                    </div>
+                   
+                </div>
+            </div>
+            
+            <!-- Certificate 6 -->
+            <div class="certificate-card fade-in" data-category="security">
+                <div class="certificate-header">
+                    <div class="certificate-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3 class="certificate-title">Cybersecurity Essentials</h3>
+                    <p class="certificate-issuer">The LINUX Foundation</p>
+                    <span class="certificate-badge status-verified">Verified</span>
+                </div>
+                <div class="certificate-body">
+                    <p class="certificate-description">
+                        Master cybersecurity essentials including threat analysis, 
+                        risk management, and fundamental Linux security practices.
+                    </p>
+                    <div class="certificate-details">
+                        <div class="certificate-detail">
+                            <i class="fas fa-calendar-alt"></i>
+                            <span>Completed: August 2025</span>
+                        </div>
+                        <div class="certificate-detail">
+                            <i class="fas fa-clock"></i>
+                            <span>Duration: 3 days</span>
+                        </div>
+                        <div class="certificate-detail">
+                            <i class="fas fa-star"></i>
+                            <span>Score : 93%</span>
+                        </div>
+                    </div>
+                    <div class="certificate-skills">
+                        <span class="skill-badge">Cybersecurity</span>
+                        <span class="skill-badge">Personally Identifiable Information</span>
+                        <span class="skill-badge">Cybersecurity Awareness</span>
+                        <span class="skill-badge">Prevention and Protection</span>
+                    </div>
+                    <div class="certificate-actions">
+                        <a href="https://www.credly.com/badges/e0a3d5a2-5af9-4691-905c-8c921a324a40/public_url" class="certificate-btn btn-verify">
+                            <i class="fas fa-check-circle"></i> Verify
+                        </a>
+                        <a href="cybersecurity-essentials .png" class="certificate-btn btn-download">
+                            <i class="fas fa-download"></i> Download
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="jobportal.png" alt="E-Commerce Platform">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link" title="Live Demo">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                                <a href="https://github.com/maleeshayomal" class="project-link" title="GitHub">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Online Job Portal</h3>
+                        <p>A full-stack platform for job seekers and employers with secure login, job posting, and resume upload features.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">CSS</span>
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">PHP</span>
+                        </div>
+                    </div>
+                </div>
+                
+               
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Let's Work Together</h3>
+                    <p>I'm always interested in hearing about new projects and opportunities. Let's create something amazing together!</p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>hettiarachchiyomal@gmail.com</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <span>+94 703651766</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Colombo, Western Province</span>
+                        </div>
+                    </div>
+                </div>
+                <form action="https://formspree.io/f/xyznplek" method="POST">
+                <form class="contact-form" id="contact-form">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" rows="5" placeholder="Your Message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2025 Your Name. All rights reserved.</p>
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/in/maleesha-yomal-05977435a/" class="social-link" title="LinkedIn">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="https://github.com/maleeshayomal" class="social-link" title="GitHub">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://www.instagram.com/maleesha_yomal?utm_source=qr" class="social-link" title="Instagram">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
